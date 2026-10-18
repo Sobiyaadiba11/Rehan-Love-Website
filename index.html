@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>A Little World Just for Rehan 💗 ✦ Sobiya &amp; Rehan</title>
+
+  <!-- Google Fonts: Romantic serif, readable friendly sans, and script font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Nunito:wght@400;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,400;1,600&display=swap"
+    rel="stylesheet" />
+
+  <!-- External Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- Floating background decorations: hearts & twinkling stars -->
+  <div class="stars-layer" id="starsLayer" aria-hidden="true"></div>
+  <div class="hearts-layer" id="heartsLayer" aria-hidden="true"></div>
+
+  <!-- ================= TOP NAVIGATION BAR ================= -->
+  <header class="top-nav-bar">
+    <div class="nav-brand">
+      <span class="brand-heart">🤍🤎</span>
+      <span class="brand-text">Sobiya &amp; Rehan</span>
+    </div>
+
+    <!-- Spotify Quick Link in Nav -->
+    <div class="nav-music-action">
+      <a href="#spotifySection" class="nav-spotify-link" title="Listen to Lovers on Spotify (Starts at 1:20)">
+        <span class="music-icon">🎵</span>
+        <span class="music-label">“Lovers” (Starts 1:20)</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- ================= 1. WELCOME SCREEN ================= -->
+  <section class="welcome-screen" id="welcomeScreen">
+    <div class="welcome-card">
+      <!-- Animated Characters: Sobiya (White Bear 🤍) & Rehan (Brown Bear 🤎) -->
+      <div class="bears-welcome-stage" aria-hidden="true">
+        <!-- Rehan: Brown Boy Bear -->
+        <div class="bear-char rehan-bear">
+          <svg viewBox="0 0 100 110" class="bear-svg">
+            <circle cx="26" cy="24" r="14" fill="#7d4e2d" />
+            <circle cx="26" cy="24" r="8" fill="#a26c45" />
+            <circle cx="74" cy="24" r="14" fill="#7d4e2d" />
+            <circle cx="74" cy="24" r="8" fill="#a26c45" />
+            <circle cx="50" cy="52" r="34" fill="#8d5b38" />
+            <ellipse cx="50" cy="60" rx="18" ry="14" fill="#f0d3b8" />
+            <g class="bear-eyes">
+              <circle cx="39" cy="48" r="4.2" fill="#2d1c15" />
+              <circle cx="40.5" cy="46.5" r="1.5" fill="#fff" />
+              <circle cx="61" cy="48" r="4.2" fill="#2d1c15" />
+              <circle cx="62.5" cy="46.5" r="1.5" fill="#fff" />
+            </g>
+            <ellipse cx="50" cy="56" rx="5" ry="3.8" fill="#2d1c15" />
+            <path d="M 46 62 Q 50 67 54 62" stroke="#2d1c15" stroke-width="2" fill="none" stroke-linecap="round" />
+            <circle cx="33" cy="56" r="5" fill="#ffb4c8" opacity="0.8" class="blush-glow" />
+            <circle cx="67" cy="56" r="5" fill="#ffb4c8" opacity="0.8" class="blush-glow" />
+            <path d="M 40 84 L 50 88 L 40 92 Z" fill="#5ec2ea" />
+            <path d="M 60 84 L 50 88 L 60 92 Z" fill="#5ec2ea" />
+            <circle cx="50" cy="88" r="3.5" fill="#ffd700" />
+            <ellipse cx="50" cy="98" rx="28" ry="18" fill="#7d4e2d" />
+            <circle cx="20" cy="88" r="8" fill="#7d4e2d" class="bear-paw-left" />
+            <circle cx="80" cy="88" r="8" fill="#7d4e2d" class="bear-paw-right" />
+          </svg>
+          <span class="bear-nametag">Rehan 🤎</span>
+        </div>
+
+        <!-- Connection Heart -->
+        <div class="heart-connection" aria-hidden="true">
+          <span class="floating-mini-heart">💖</span>
+        </div>
+
+        <!-- Sobiya: Fluffy White Girl Bear with Cute Pink Bow -->
+        <div class="bear-char sobiya-bear">
+          <svg viewBox="0 0 100 110" class="bear-svg">
+            <circle cx="26" cy="24" r="14" fill="#ffffff" stroke="#f0edf2" stroke-width="1.2" />
+            <circle cx="26" cy="24" r="8" fill="#ffd5e5" />
+            <circle cx="74" cy="24" r="14" fill="#ffffff" stroke="#f0edf2" stroke-width="1.2" />
+            <circle cx="74" cy="24" r="8" fill="#ffd5e5" />
+            <circle cx="50" cy="52" r="34" fill="#ffffff" stroke="#f2ecf3" stroke-width="1.5" />
+            <g class="pink-bow">
+              <path d="M 68 18 L 76 24 L 68 30 Z" fill="#ff7597" />
+              <path d="M 84 18 L 76 24 L 84 30 Z" fill="#ff7597" />
+              <circle cx="76" cy="24" r="3.2" fill="#fff" />
+            </g>
+            <ellipse cx="50" cy="60" rx="18" ry="14" fill="#fff5f9" />
+            <g class="bear-eyes">
+              <circle cx="39" cy="48" r="4.2" fill="#2d1c15" />
+              <circle cx="40.5" cy="46.5" r="1.5" fill="#fff" />
+              <path d="M 35 44 L 38 46" stroke="#2d1c15" stroke-width="1.6" stroke-linecap="round" />
+              <circle cx="61" cy="48" r="4.2" fill="#2d1c15" />
+              <circle cx="62.5" cy="46.5" r="1.5" fill="#fff" />
+              <path d="M 65 44 L 62 46" stroke="#2d1c15" stroke-width="1.6" stroke-linecap="round" />
+            </g>
+            <ellipse cx="50" cy="56" rx="4.8" ry="3.6" fill="#2d1c15" />
+            <path d="M 46 62 Q 50 67 54 62" stroke="#2d1c15" stroke-width="2" fill="none" stroke-linecap="round" />
+            <circle cx="33" cy="56" r="6" fill="#ff9ebb" opacity="0.85" class="blush-glow" />
+            <circle cx="67" cy="56" r="6" fill="#ff9ebb" opacity="0.85" class="blush-glow" />
+            <ellipse cx="50" cy="98" rx="28" ry="18" fill="#ffffff" stroke="#f2ecf3" stroke-width="1.5" />
+            <circle cx="20" cy="88" r="8" fill="#ffffff" stroke="#f0edf2" stroke-width="1" class="bear-paw-left" />
+            <circle cx="80" cy="88" r="8" fill="#ffffff" stroke="#f0edf2" stroke-width="1" class="bear-paw-right" />
+          </svg>
+          <span class="bear-nametag">Sobiya 🤍</span>
+        </div>
+      </div>
+
+      <p class="welcome-tag">✦ A Special World for My Favorite Person ✦</p>
+      <h1 class="welcome-title">A Little World Just for Rehan 💗</h1>
+      <p class="welcome-subtitle">
+        I built this little corner of the internet just for you. Because out of all the people in the world, you are my
+        favorite.
+      </p>
+
+      <!-- Action Buttons -->
+      <div class="welcome-actions-row">
+        <!-- Button: Enter Our Little World 💗 (Scrolls to Love Letter) -->
+        <button class="prominent-story-btn" id="enterWorldBtn" type="button">
+          <span class="btn-emoji">💗</span>
+          <span>Enter Our Little World 💗</span>
+        </button>
+
+        <!-- Button: Watch Our Love Story Movie 🎬 (Scrolls to Movie) -->
+        <button class="glow-btn" id="watchStoryScrollBtn" type="button">
+          <span class="btn-emoji">🎬</span>
+          <span>Watch Our Love Story Movie</span>
+        </button>
+
+        <!-- Button: Listen on Spotify 🎧 (Starts at 1:20) -->
+        <a href="#spotifySection" class="spotify-pill-btn">
+          <span>🎧 Listen on Spotify (1:20)</span>
+        </a>
+      </div>
+
+      <div class="hint-text">✨ Tap “Enter Our Little World 💗” to read our letter, or stream our song on Spotify (starts
+        at 1:20) ✨</div>
+    </div>
+  </section>
+
+  <!-- ================= UNIFIED MAIN CONTENT CONTAINER ================= -->
+  <!-- Everything stays together on the same page. The letter NEVER disappears! -->
+  <main class="surprise-container" id="surpriseContainer">
+
+    <!-- ================= 2. SPOTIFY MUSIC CARD (OFFICIAL & EMBEDDED) ================= -->
+    <section class="section spotify-section" id="spotifySection">
+      <div class="spotify-card">
+        <div class="spotify-card-header">
+          <div class="spotify-badge">
+            <span class="spotify-logo-dot"></span>
+            <span class="spotify-badge-text">Our Special Song · Spotify</span>
+          </div>
+          <span class="music-floating-note">🎵 💕 🎶</span>
+        </div>
+
+        <div class="spotify-song-header">
+          <div class="song-disc" aria-hidden="true">💿</div>
+          <div class="song-header-info">
+            <h3 class="spotify-track-title">Lovers</h3>
+            <p class="spotify-artist-name">Anna of the North</p>
+            <p class="spotify-track-note">Dedicated with all my love from Sobiya to Rehan 🌸 · Starts from 1:20</p>
+          </div>
+        </div>
+
+        <!-- Official Spotify Embed (Supports 1:20 via iFrame API + URL parameter) -->
+        <div class="spotify-embed-container" id="spotifyEmbedContainer">
+          <div id="spotifyEmbedSlot"></div>
+          <iframe id="spotifyFallbackIframe"
+            src="https://open.spotify.com/embed/track/6q8onrzcka32nGVrnWYGBQ?utm_source=generator&theme=0&t=80"
+            width="100%" height="152" frameBorder="0" allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"
+            title="Spotify Player for Lovers by Anna of the North">
+          </iframe>
+        </div>
+
+        <div class="spotify-tap-hint">
+          <span>✨ Configured to play from 1:20 (80s) · Tap play or use the buttons below ✨</span>
+        </div>
+
+        <!-- Hidden local audio element (if lovers.mp3 is added, plays from 1:20 with NO missing-file warnings) -->
+        <audio id="localLoversAudio" src="lovers.mp3" preload="metadata"></audio>
+
+        <!-- Direct Actions Row: Start from 1:20 & Listen on Spotify -->
+        <div class="spotify-action-row">
+          <div class="spotify-buttons-group">
+            <button class="spotify-timestamp-btn" id="seekTimestampBtn" type="button">
+              <span>▶ Play / Jump to 1:20 (The Chorus) 🎵</span>
+            </button>
+            <a href="https://open.spotify.com/track/6q8onrzcka32nGVrnWYGBQ?t=80" target="_blank"
+              rel="noopener noreferrer" class="spotify-direct-btn">
+              <span class="spotify-btn-icon">🎧</span>
+              <span>Listen to Our Song on Spotify 💗</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 3. COMPACT CONTINUOUS ANIMATED MOVIE (1.5x SPEED) ================= -->
+    <section class="section movie-theater-section" id="movieTheaterSection">
+      <div class="section-header">
+        <span class="section-chip">✦ A Compact Animated Romantic Film (1.5× Speed) ✦</span>
+        <h2 class="section-title">Sobiya &amp; Rehan’s Love Story 🎬</h2>
+        <p class="section-subtitle">
+          Watch our little bears meet under the stars, walk together, hold hands, hug, dance, and stay together forever.
+        </p>
+      </div>
+
+      <div class="cinema-card-frame">
+        <!-- Compact Cinematic Viewport Stage (Optimized for iPhone screens!) -->
+        <div class="cinema-viewport" id="cinemaViewport">
+          <!-- Sky, Moon, Clouds & Stars Background -->
+          <div class="movie-environment" id="movieEnv">
+            <div class="movie-sky-gradient" id="movieSky"></div>
+            <div class="movie-stars" id="movieStars" aria-hidden="true"></div>
+            <div class="movie-moon" id="movieMoon">🌙</div>
+            <div class="movie-clouds" id="movieClouds">
+              <span class="m-cloud m-cloud-1">☁️</span>
+              <span class="m-cloud m-cloud-2">☁️</span>
+            </div>
+          </div>
+
+          <!-- Continuous Stage: Sobiya & Rehan animate continuously -->
+          <div class="movie-continuous-stage" id="movieContinuousStage">
+            <!-- Left Actor: Sobiya (Fluffy White Bear with Pink Bow) -->
+            <div class="actor-slot actor-sobiya" id="actorSobiya"></div>
+
+            <!-- Center Stage Slot (Hearts, Holding Hands, Hugging, Dancing, Stargazing) -->
+            <div class="actor-prop-slot" id="actorPropSlot"></div>
+
+            <!-- Right Actor: Rehan (Fluffy Brown Bear with Blue Bowtie) -->
+            <div class="actor-slot actor-rehan" id="actorRehan"></div>
+          </div>
+
+          <!-- Floating Particles (Hearts & Sparkles) -->
+          <div class="movie-floating-stream" id="movieFloatStream" aria-hidden="true"></div>
+        </div>
+
+        <!-- Movie Caption Banner -->
+        <div class="cinema-caption-panel" aria-live="polite">
+          <div class="scene-chapter-badge" id="movieSceneBadge">Moment 1 · Under the Stars ⭐</div>
+          <h3 class="scene-title-text" id="movieSceneTitle">Looking at the Same Moon</h3>
+          <p class="scene-desc-text" id="movieSceneDesc">
+            Miles apart, Sobiya and Rehan look out their windows, their hearts connected under the starry night sky.
+          </p>
+        </div>
+
+        <!-- Cinema Timeline & Movie Controls -->
+        <div class="cinema-controls-bar">
+          <button class="cinema-ctrl-btn" id="moviePlayPauseBtn" type="button"
+            aria-label="Play or pause movie">⏸</button>
+
+          <!-- Continuous Film Progress Track -->
+          <div class="movie-progress-wrap">
+            <input type="range" class="movie-progress-bar" id="movieProgressBar" min="0" max="100" value="0" step="1"
+              aria-label="Movie timeline progress" />
+          </div>
+
+          <button class="cinema-replay-btn" id="movieReplayBtn" type="button">
+            <span>🔄 Replay Movie</span>
+          </button>
+        </div>
+
+        <!-- Ending Quote Banner -->
+        <div class="happy-ending-card" id="happyEndingBanner" hidden>
+          <div class="ending-heart-pair">🤍 💖 🤎</div>
+          <p class="ending-quote">
+            “No distance can change what my heart feels for you. I love you, Rehan. Forever yours, Sobiya. 🤍🤎”
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 4. ROMANTIC LOVE LETTER (CREAM PAPER DESIGN) ================= -->
+    <section class="section love-letter-section" id="loveLetterSection">
+      <div class="letter-card">
+        <div class="letter-stamp" aria-hidden="true">💌</div>
+        <div class="letter-header">
+          <span class="letter-date" id="currentDateDisplay">October 2026</span>
+          <h2 class="letter-salutation">Dearest Rehan,</h2>
+        </div>
+
+        <!-- FULL ORIGINAL LOVE LETTER PARAGRAPHS (Restored in Full) -->
+        <div class="letter-body">
+          <p>
+            From the moment you came into my life, everything started feeling a little softer, a little brighter, and so
+            much warmer.
+          </p>
+
+          <p>
+            Even though distance keeps our hands apart for now, it can never touch what we share in our hearts. In a
+            busy world that moves too fast, you are my calm, my comfort, and the person who always knows how to make me
+            smile.
+          </p>
+
+          <!-- Highlight Quote Box -->
+          <div class="memory-highlight-box">
+            <span class="highlight-icon">✨</span>
+            <p>
+              <em>"Thank you for being my favorite person to talk to, my safest place, and my greatest supporter. Every
+                moment with you is a memory I treasure."</em>
+            </p>
+          </div>
+
+          <p>
+            Whether we are talking for hours, laughing at silly jokes, or just being there for each other across the
+            miles, I am so grateful for every second. Thank you for being exactly who you are — gentle, funny, caring,
+            and so very dear to my heart.
+          </p>
+
+          <p class="letter-signoff">
+            With all my love and biggest teddy-bear hugs,<br />
+            <span class="handwritten-sig">Forever Yours ❤️</span><br />
+            <span class="author-subname">Sobiya 🤍</span>
+          </p>
+        </div>
+
+        <!-- Interactive Hug Stamp Button -->
+        <div class="letter-action">
+          <button class="stamp-btn" id="stampLetterBtn" type="button">
+            <span>Send a sweet hug to Rehan</span> 💖
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 5. SWEET MESSAGES FROM SOBIYA ================= -->
+    <section class="section sweet-messages-section" id="messagesSection">
+      <div class="section-header">
+        <span class="section-chip">✦ Sweet Words Across the Miles ✦</span>
+        <h2 class="section-title">Sweet Messages from Sobiya 💬</h2>
+        <p class="section-subtitle">Little reminders of how much you are cherished, today and always.</p>
+      </div>
+
+      <div class="sweet-messages-grid">
+        <div class="message-bubble-card">
+          <span class="msg-time-badge">Morning Sunshine ☀️</span>
+          <p>“Good morning, my handsome Rehan! Just a reminder that someone miles away is smiling because of you today.
+            🌸”</p>
+        </div>
+
+        <div class="message-bubble-card">
+          <span class="msg-time-badge">Gentle Reminder 🤍</span>
+          <p>“Whenever you feel tired or stressed, take a deep breath and remember: you are doing amazing, and I am
+            always in your corner. 💫”</p>
+        </div>
+
+        <div class="message-bubble-card">
+          <span class="msg-time-badge">Across the Distance ✈️</span>
+          <p>“Distance means so little when someone means so much. You're worth every single mile, every single wait,
+            and every single second. 💖”</p>
+        </div>
+
+        <div class="message-bubble-card">
+          <span class="msg-time-badge">My Highlight ✨</span>
+          <p>“My favorite part of any day is whenever I see your name pop up on my phone. You make my whole heart light
+            up. 🥰”</p>
+        </div>
+
+        <div class="message-bubble-card">
+          <span class="msg-time-badge">So Proud of You 💪</span>
+          <p>“No matter where life takes us, I want you to know how proud I am of you. You are so hardworking, kind, and
+            precious to me. ☕”</p>
+        </div>
+
+        <div class="message-bubble-card">
+          <span class="msg-time-badge">Goodnight Wish 🌙</span>
+          <p>“Counting down every second until we don't have to say goodbye through a screen anymore. I love you
+            endlessly, Rehan. 🤍”</p>
+        </div>
+      </div>
+
+      <!-- Interactive Extra Message Reveal -->
+      <div class="message-action-wrap">
+        <button class="pill-glow-btn" id="revealMessageBtn" type="button">
+          <span>Reveal Today's Message for Rehan 💌</span>
+        </button>
+        <div class="revealed-extra-msg" id="revealedExtraMsg" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <!-- ================= 6. REASONS WHY I LOVE YOU ================= -->
+    <section class="section reasons-section" id="reasonsSection">
+      <div class="section-header">
+        <span class="section-chip">✦ From the Bottom of My Heart ✦</span>
+        <h2 class="section-title">Reasons Why I Love You 🌸</h2>
+        <p class="section-subtitle">There are a million reasons, but here are just a few of my favorites:</p>
+      </div>
+
+      <!-- The 6 Exact Requested Reasons -->
+      <div class="reasons-grid">
+        <article class="reason-card">
+          <div class="reason-icon">😄</div>
+          <h3>Your smile makes my day</h3>
+          <p>The moment you smile, everything feels brighter. Your laugh is my absolute favorite melody in the world.
+          </p>
+        </article>
+
+        <article class="reason-card">
+          <div class="reason-icon">💖</div>
+          <h3>You make me feel loved even when we are far apart</h3>
+          <p>Across any distance or time zone, your sweet check-ins and thoughtful care make me feel safe and cherished
+            every single day.</p>
+        </article>
+
+        <article class="reason-card">
+          <div class="reason-icon">✨</div>
+          <h3>You make ordinary moments feel special</h3>
+          <p>Even a simple text, a silly joke, or quiet video calls become my happiest memories when they're with you.
+          </p>
+        </article>
+
+        <article class="reason-card">
+          <div class="reason-icon">😂</div>
+          <h3>I love the way you make me laugh</h3>
+          <p>Nobody understands my humor like you do. You have this magical gift of turning any bad day completely
+            around.</p>
+        </article>
+
+        <article class="reason-card">
+          <div class="reason-icon">☕</div>
+          <h3>You are my favourite person to talk to</h3>
+          <p>From deep late-night thoughts to random everyday stories, I never run out of things to share with you.</p>
+        </article>
+
+        <article class="reason-card">
+          <div class="reason-icon">🌟</div>
+          <h3>Every day, I find another reason to love you</h3>
+          <p>Watching your kindness, your drive, and your gentle heart makes me fall in love with you all over again
+            every morning.</p>
+        </article>
+      </div>
+
+      <!-- Extra Reason Generator -->
+      <div class="more-reasons-box">
+        <button class="pill-glow-btn" id="generateReasonBtn" type="button">
+          <span>Click to reveal another reason 💖</span>
+        </button>
+        <div class="extra-reason-display" id="extraReasonDisplay" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <!-- ================= 7. SECRET SURPRISE ================= -->
+    <section class="section secret-section">
+      <div class="secret-box">
+        <div class="secret-icon" aria-hidden="true">🔒</div>
+        <h2>A Secret Message for Rehan</h2>
+        <p>I have hidden a special reminder just for you. Tap the glowing button to unlock it:</p>
+
+        <!-- Exact Button Label: “Open a little secret 💗” -->
+        <button class="secret-glow-btn" id="secretBtn" type="button">
+          <span>Open a little secret 💗</span>
+        </button>
+
+        <div class="secret-message-revealed" id="secretMessage" aria-live="polite">
+          <div class="secret-card">
+            <span class="secret-card-badge">💌 For My Rehan</span>
+            <p class="highlight-quote">
+              “If I could choose my favourite place in the whole world, it would be right beside you, Rehan. No distance
+              could ever change how much you mean to me. Love, Sobiya. 🤍🤎”
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 8. FINAL ROMANTIC MESSAGE ================= -->
+    <footer class="final-section">
+      <div class="final-card">
+        <div class="big-heart-icon" aria-hidden="true">💗</div>
+        <h1 class="final-title">You are my favourite person, Rehan 💗</h1>
+        <p class="final-subtitle">Today, tomorrow, and every single day that follows.</p>
+
+        <!-- Interactive Virtual Hug Counter -->
+        <div class="hug-counter-widget">
+          <button class="hug-btn" id="sendHugBtn" type="button">
+            <span>Send a hug back</span> 🫂
+          </button>
+          <div class="hug-count-text">
+            <span id="hugCount">24</span> virtual hugs shared so far!
+          </div>
+        </div>
+
+        <div class="final-footer-text">
+          Made with all my heart just for you 🌸 · Sobiya &amp; Rehan
+        </div>
+      </div>
+    </footer>
+
+  </main>
+
+  <!-- Spotify iFrame API for Programmatic Timestamp Control (Starts at 1:20) -->
+  <script src="https://open.spotify.com/embed/iframe-api/v1" async></script>
+  <!-- External Script -->
+  <script src="script.js"></script>
+</body>
+
+</html>
